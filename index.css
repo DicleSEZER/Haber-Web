@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ccccccd4;
+}
+.navbar{
+    display: flex;
+    height: 95px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    width: 98vw;
+  
+   
+}
+.navbar h2{
+    padding-left: 35px;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.linkler{
+    display: flex;
+    margin: 0 4%;
+}
+.linkler .logo{
+    padding:48px ;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a{
+    font-size: large;
+    font-weight: bolder;
+    padding: 8px;
+    transition: 0.3s;
+}
+ul li a:hover{
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.801);
+    color: rgba(0, 0, 0, 0.753);
+}
+.navbar-2{
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #ccc;
+    height: 75px;
+    align-items: center;
+}
+.navbar-2 img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.element{
+    padding: 15px;
+    margin: 0 2%;
+    
+}
+.navbar-2 a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    letter-spacing: 1px;
+    transition: 0.9s;
+}
+.navbar-2 .element:hover{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 15px;
+}
+.navbar-2 a:hover{
+    background-color: black;
+    color: white;
+}
+.navbar-2 a:nth-child(4){
+    border-right: none;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-teknoloji{
+    width: 15rem;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 3px;
+}
+.card-teknoloji img{
+    width: 100%;
+    height: 150px;
+}
+.teknoloji{
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+.card-img {
+    position: relative;
+}
+.card-img span{
+    position: absolute;
+    left: 0;
+    transition: 0.3s;
+}
+span:hover{
+    padding-left: 12px;
+}
+.card-text h2{
+    border-bottom: 2px solid #ccc;
+}
+.baslik-tekno{
+    border-left:8px solid blue ;
+    margin-left: 14%;
+    margin-top: 10px;
+    padding: 10px;
+}
+.yazılım{
+    background-color:brown;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+.baslik-yazilim{
+    border-left:8px solid brown ;
+    margin-left: 14%;
+    margin-top: 10px;
+    padding: 10px;
+}
+.baslik-mücid{
+    border-left:8px solid pink;
+     margin-left: 14%;
+    margin-top: 10px;
+    padding: 10px;
+}
+.mücid{
+    background-color:pink;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+.video{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 25%;
+   
+}
+
+.video-a{
+
+    background-color: rgba(255, 0, 0, 0.325);
+    border-radius: 15px;
+    margin: 14px;
+    color: black;
+}
+.video-a:hover{
+ background-color: red;
+ color: white;
+}
+
+.video-baslik{
+    padding-top: 55px;
+    border-bottom: 3px solid rgba(255, 0, 0, 0.325);
+    text-align: center;
+}
+
+.video a{
+    text-decoration: none;
+    padding: 15px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    background-color: #ccc;
+    border-top: 3px solid  rgba(255, 0, 0, 0.325);
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+}
+
+.footer ul{
+    list-style-type: none;
+    display: flex;
+}
+.footer ul li{
+    padding: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
